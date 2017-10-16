@@ -1,0 +1,6 @@
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\bin\Debug\ServerDetailsEditor.dll
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\bin\Debug\ServerDetailsEditor.pdb
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Debug\ServerDetailsEditor.csprojResolveAssemblyReference.cache
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Debug\ServerDetailsEditor.csproj.CoreCompileInputs.cache
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Debug\ServerDetailsEditor.dll
+C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Debug\ServerDetailsEditor.pdb

@@ -1,6 +1,0 @@
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\bin\Release\ServerDetailsEditor.dll
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\bin\Release\ServerDetailsEditor.pdb
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Release\ServerDetailsEditor.csproj.CoreCompileInputs.cache
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Release\ServerDetailsEditor.dll
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Release\ServerDetailsEditor.pdb
-C:\Users\Tadhg\Documents\GitHub\ServerDetailsEditor\obj\Release\ServerDetailsEditor.csprojResolveAssemblyReference.cache

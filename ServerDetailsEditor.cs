@@ -36,11 +36,6 @@ namespace ServerDetailsEditor
                 }
             }
 
-            if (Configuration.Instance.hideConfiguration)
-            {
-                SteamGameServer.SetKeyValue("Browser_Config_Count", null);
-            }
-
             if (Configuration.Instance.gameName != null)
             {
                 SteamGameServer.SetGameTags((!Provider.isPvP ? "PVE" : "PVP") + ",GAMEMODE:" + Configuration.Instance.gameName + ',' + (!Provider.hasCheats ? "STAEHC" : "CHEATS") + ',' + Provider.mode.ToString() + "," + Provider.cameraMode.ToString() + "," + (Provider.serverWorkshopFileIDs.Count <= 0 ? "KROW" : "WORK") + "," + (!Provider.isGold ? "YLNODLOG" : "GOLDONLY") + "," + (!Provider.configData.Server.BattlEye_Secure ? "BATTLEYE_OFF" : "BATTLEYE_ON"));
@@ -49,6 +44,11 @@ namespace ServerDetailsEditor
             if (Configuration.Instance.hideWorkshop)
             {
                 SteamGameServer.SetKeyValue("Browser_Workshop_Count", null);
+            }
+
+            if (Configuration.Instance.hideConfiguration)
+            {
+                SteamGameServer.SetKeyValue("Browser_Config_Count", null);
             }
 
             if (Configuration.Instance.rocketPlugins != null)

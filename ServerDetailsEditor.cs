@@ -14,15 +14,15 @@ namespace ServerDetailsEditor
     {
         protected override void Load()
         {
-            Level.onLevelLoaded += Level_onLevelLoaded;
+            R.Plugins.OnPluginsLoaded += OnPluginsLoaded;
         }
 
         protected override void Unload()
         {
-            Level.onLevelLoaded -= Level_onLevelLoaded;
+            R.Plugins.OnPluginsLoaded -= OnPluginsLoaded;
         }
 
-        private void Level_onLevelLoaded(int level)
+        private void OnPluginsLoaded()
         {
             if (Configuration.Instance.largeServer)
             {

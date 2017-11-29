@@ -15,14 +15,26 @@ namespace ServerDetailsEditor
         protected override void Load()
         {
             R.Plugins.OnPluginsLoaded += OnPluginsLoaded;
+            Level.onLevelLoaded += OnLevelLoaded;
         }
 
         protected override void Unload()
         {
             R.Plugins.OnPluginsLoaded -= OnPluginsLoaded;
+            Level.onLevelLoaded -= OnLevelLoaded;
         }
 
         private void OnPluginsLoaded()
+        {
+            UpdateSteamGameServerValues();
+        }
+
+        private void OnLevelLoaded(int level)
+        {
+            UpdateSteamGameServerValues();
+        }
+
+        private void UpdateSteamGameServerValues()
         {
             if (Configuration.Instance.largeServer)
             {
